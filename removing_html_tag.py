@@ -17,4 +17,5 @@ def strip_html(data):
     text = re.sub(r'\s+', ' ', text)    # collapse multiple spaces/newlines
     return text.strip()                 # remove leading/trailing spaces
 
-print(strip_html(sample_text))
+clean_text = strip_html(sample_text)
+print(clean_text)
