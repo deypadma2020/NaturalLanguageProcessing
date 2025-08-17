@@ -19,3 +19,21 @@ def strip_html(data):
 
 clean_text = strip_html(sample_text)
 print(clean_text)
+print("########################################\n")
+
+
+
+
+import re
+
+def remove_html_tags(text):
+    pattern = re.compile('<.*?>')
+    return pattern.sub(r'', text)
+
+text = '''
+<p>NLP tokenizes, cleans, and embeds text so we can compare meanings across differently worded questions.</p> <p>Similar questions are clustered together to improve search, reduce duplicates, and boost engagement.</p>
+'''
+
+clean_text = remove_html_tags(text)
+
+print(clean_text)
