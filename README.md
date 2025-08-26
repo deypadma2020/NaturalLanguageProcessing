@@ -55,4 +55,26 @@
 
 
 - cBow - Continuous Bag Of Words
+    - need to take 3/5/... window, middle one is target word and both side words are context word
+    - good for small data and very fast
 - Skip-gram -
+    - good for large data
+
+
+- The pipeline of a NLP PROJECT
+    - Data Acuisation
+    - Text Preprocessiing
+    - Text Vectorization
+    - Modelling -> 
+        - ML -> Naive Bayes, Random Forest Classifier, SVM, ...
+        - DL -> 
+            - RNN -> LSTM
+            - CNN
+            - BERT(PRE-TRAINED)
+    - Evaluation -> ACCURACY, CONFUSION MATTRIX
+    - Deploy -> AWS
+
+
+-  parts of speech(_pos):
+    - fine trained pos
+    - core trained pos
