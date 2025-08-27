@@ -15,7 +15,7 @@
 - OOV (Out Of Vocabulary) -
 
 - One Hot Encoding - 
-    - flaws - 1. sparsity, 2. No fixed size, 3. OOV, 4. No capturing of semantic meaning
+    - flaws - 1. sparsity, 2. No fixed size, 3. OOV, 4. No capturing of semantic meaning.
 
 
 - Bag Of Words - use in text classification (semantic meaning capture)
