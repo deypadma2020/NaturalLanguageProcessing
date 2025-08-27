@@ -23,7 +23,6 @@
     - hyperparameter - 
         for sentiment analysis binary = True(0,1)
         max_features -
-    
 
     - flaws - 
         - sparsity
